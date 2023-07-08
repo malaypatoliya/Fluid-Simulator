@@ -149,7 +149,7 @@ function supportRenderTextureFormat(gl, internalFormat, format, type) {
 }
 
 function startGUI() {
-    var gui = new dat.GUI({ width: 400 });
+    var gui = new dat.GUI({ width: 300 });
 
     let github = gui.add({
         fun: () => {
